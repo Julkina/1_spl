@@ -1,0 +1,6 @@
+words = input('Введите строку текста ')
+swords = words.split()
+largest_word = max(swords, key=len)
+#print(f"tHE LONGEST WORD: {largest_word}")
+print("Самое длинное слово в строке:", largest_word)
+print(words.swapcase())
